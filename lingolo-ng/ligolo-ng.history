@@ -1,0 +1,60 @@
+exit
+help
+session
+ipconfig
+ifconfig
+sudo ip route add 127.0.0.1/8 dev ligolo
+start
+help
+session
+listener_list
+tunnel_list
+listener_stop
+listener_add
+start
+stop
+start
+route_list
+start 0
+tunnel_start 0
+start
+ifconfig
+status
+help
+session
+listener_list
+listener_add
+nmap -sV 172.18.0.0/16
+start
+ifconfig
+sudo ip route add 172.17.0.1/16
+start
+help
+listerner_list
+listener_list
+tunnel_list
+start
+session
+start
+ifconfig
+start
+listener_add --addr 0.0.0.0:11601 --to 127.0.0.1:11601 --tcp
+start
+help
+session
+start
+session
+listener_list
+session
+listner_list
+listener_list
+help
+listener_add
+listener_add --addr 0.0.0.0:11601 --to 127.0.0.1:11601 --tcp
+listener_list
+listener_add --addr 0.0.0.0:11601 --to 127.0.0.1:11601 --tcp
+start
+ipconfig
+ifconfig
+help
+interface_list
