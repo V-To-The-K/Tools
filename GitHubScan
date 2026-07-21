@@ -1,0 +1,6 @@
+trufflefrog git github.com/pathtorepository
+
+gitleaks
+clone repository
+cd to folder of repository
+gitleaks detect --verbose --redact
